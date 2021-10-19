@@ -1,0 +1,137 @@
+ 
+ /*Titulo*/
+
+ .titulo {
+
+    background-color: white;
+    padding: 50px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+
+.titulo header h1 {
+    
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+}
+
+/*barra de navegación*/
+
+.nav {
+    
+    background-color: black;
+
+}
+
+/*estilo a la lista desordenada*/
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    padding: 15px;
+    
+   
+    
+}
+
+
+/*Forma vertical mi lista */
+li {
+    float:right;
+   
+    
+}
+
+/*estilos a mis enlaces dentro de las listas*/
+
+li a {
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;  
+
+}
+
+li a:hover {
+    color:white;
+    background-color:rgb(37, 34, 34);
+}
+
+.activar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+
+    .nav  {
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+    }
+
+    .nav  #enlaces {
+        display: none;
+    }
+
+    .nav #enlaces a{
+        color:black;
+    }
+    .nav #enlaces a:hover{
+        color:white;
+    }
+    .nav a {
+        color: white;
+        padding: 14px 15px;
+        text-decoration: none;
+        font-size: auto;
+        display: block;
+      }
+
+      .nav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+      }
+      .nav a:hover {
+        
+        background-color:black;
+        color: white;
+      }
+
+      .activar {
+        background-color:black;
+        color: white;
+      }
+    
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav #enlaces li {
+        float: none;
+        
+    }
+}
